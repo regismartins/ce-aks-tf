@@ -21,7 +21,7 @@ To sucessfully deploy the Calico Enterprise product, you will need to provide th
 - The pull secret
 - The license
 
-For pulling images directly from `quay.io/tigera`, you will need to use the apropriate credentials License for the Calico Enterprise will be needed as well. If you don't have your credential and license yet, please [contact us](https://www.tigera.io/contact/). Both files (credential and license) have to be stored in the tigera-secrets directory. Use the following names for each file:
+For pulling images directly from `quay.io/tigera`, you will need to use the apropriate credentials License for the Calico Enterprise will be needed as well. If you don't have your credential and license yet, check [here](https://docs.tigera.io/getting-started/calico-enterprise) how to Get a license  or [contact us](https://www.tigera.io/contact/). Both files (credential and license) have to be stored in the tigera-secrets directory. Use the following names for each file:
 
 - `config.json` (for the pull secret)
 - `license.yaml` (for the license yaml)
