@@ -2,7 +2,13 @@
 
 # Calico Enterprise Trial Environment on AKS using Terraform
 
-[![Tigera][tigera.io-badge]][tigera.io] [![Terraform][terraform.io-badge]][terraform.io]
+
+
+[![Tigera][tigera.io-badge]][tigera.io] ![](https://img.shields.io/badge/-Terraform-7b3fc4?style=plastic&logo=terraform&logoColor=white)
+
+![](https://img.shields.io/badge/-Azure-257bc2?style=plastic&logo=microsoftazure&logoColor=white)
+
+
 
 This repository was built to accelerate the process of creating a Calico Enterprise trial environment. It provides the steps to create an AKS (Azure Kubernetes Service) cluster, deploying the the [Calico Enterprise](https://docs.tigera.io/about/about-calico-enterprise) product, and the [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo) as a example application, using Terraform.
 
