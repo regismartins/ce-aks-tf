@@ -13,9 +13,9 @@
 
 
 
-[terraform-badge](https://img.shields.io/badge/-Terraform-7b3fc4?style=?style=flat-square&logo=appveyor&logo=terraform&logoColor=white)
+[terraform-badge]: https://img.shields.io/badge/-Terraform-7b3fc4?style=?style=flat-square&logo=appveyor&logo=terraform&logoColor=white
 
-[azure-badge]: https://img.shields.io/badge/-Azure-257bc2?style=?style=flat-square&logo=appveyor&logo=microsoftazure&logoColor=white)
+[azure-badge]: https://img.shields.io/badge/-Azure-257bc2?style=?style=flat-square&logo=appveyor&logo=microsoftazure&logoColor=white
 [azure.link]: https://azure.microsoft.com
 
 
