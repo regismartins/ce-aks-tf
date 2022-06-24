@@ -143,7 +143,7 @@ Terraform will prompt asking for the `owner-name`. This variable will be used to
 ```sh
 $ terraform apply -auto-approve
 var.owner-name
-  Enter a value: regisftm
+  Enter a value: regis
 ```
 Great! Now you just need to wait until Terraform finishes the infrastructure creation process.
 
