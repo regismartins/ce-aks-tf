@@ -4,7 +4,7 @@
 
 
 
-[![Tigera][tigera.io-badge]][tigera.io] [![][azure-badge]][azure.link] [![][terraform-badge]][terraform.io]
+[![Tigera][tigera.io-badge]][tigera.io] [![Azure][azure-badge]][azure.link] [![Terraform][terraform-badge]][terraform.io]
 
 
 
