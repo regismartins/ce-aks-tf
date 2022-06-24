@@ -266,7 +266,7 @@ terraform apply -var="vm-size=<your_custom_vm_size>"
 
 ---
 
-[⬆️ Back to the top](https://github.com/tigera-solutions/ce-ob-aks-tf) 
+[⬆️ Back to the top](https://github.com/regismartins/ce-aks-tf) 
 
 ---
 
