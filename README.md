@@ -218,7 +218,7 @@ The prefix is used on you Resource Group and AKS cluster nomenclature.
 ```terraform
 variable "prefix" {
   type    = string
-  default = "ce-ob-aks-tf"
+  default = "ce-aks-tf"
 }
 ```
 You can customize it when running the terraform apply:

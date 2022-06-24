@@ -5,7 +5,7 @@ variable "owner-name" {
 
 variable "prefix" {
   type    = string
-  default = "ce-ob-aks-tf"
+  default = "ce-aks-tf"
 }
 
 variable "location" {
