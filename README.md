@@ -1,4 +1,4 @@
-![ce-aks-tf](https://user-images.githubusercontent.com/104035488/175656614-70ac979d-b185-46d1-8635-885e145aa112.png)
+![ce-aks-tf](https://user-images.githubusercontent.com/104035488/175662346-237812d3-e248-43c8-9ac4-555b7c9fdc28.png)
 
 # Calico Enterprise Trial Environment on AKS using Terraform
 
