@@ -72,7 +72,7 @@ $
 2. The next step is to clone this git repository:
 
 ```bash
-git clone https://github.com/tigera-solutions/ce-ob-aks-tf.git
+git clone https://github.com/tigera-solutions/ce-aks-tf.git
 ```
 After cloning the repository, your working directory will look like the following:
 
@@ -92,7 +92,7 @@ $ tree
     └── license.yaml
 ```
 
-3. Lets now initiate the Terraform in the `ce-ob-aks-tf` directory.
+3. Lets now initiate the Terraform in the `ce-aks-tf` directory.
 
 ```sh
 terraform init
@@ -132,7 +132,7 @@ commands will detect it and remind you to do so if necessary.
 $
 ```
 
-4. Once the Terrafor has being successfully `ce-ob-aks-tf` directory, you can apply the Terraform code.
+4. Once the Terrafor has being successfully `ce-aks-tf` directory, you can apply the Terraform code.
 
 ```sh
 terraform apply -auto-approve
