@@ -4,10 +4,19 @@
 
 
 
-[![Tigera][tigera.io-badge]][tigera.io] ![](https://img.shields.io/badge/-Terraform-7b3fc4?style=plastic&logo=terraform&logoColor=white)
+[![Tigera][tigera.io-badge]][tigera.io] [![][azure-badge]][azure.link] [![][terraform-badge]][terraform.io]
 
-![](https://img.shields.io/badge/-Azure-257bc2?style=plastic&logo=microsoftazure&logoColor=white)
 
+
+[tigera.io-badge]: https://img.shields.io/badge/Powered%20by-Tigera-orange
+[tigera.io]: https://www.tigera.io
+
+
+
+[terraform-badge](https://img.shields.io/badge/-Terraform-7b3fc4?style=?style=flat-square&logo=appveyor&logo=terraform&logoColor=white)
+
+[azure-badge]: https://img.shields.io/badge/-Azure-257bc2?style=?style=flat-square&logo=appveyor&logo=microsoftazure&logoColor=white)
+[azure.link]: https://azure.microsoft.com
 
 
 This repository was built to accelerate the process of creating a Calico Enterprise trial environment. It provides the steps to create an AKS (Azure Kubernetes Service) cluster, deploying the the [Calico Enterprise](https://docs.tigera.io/about/about-calico-enterprise) product, and the [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo) as a example application, using Terraform.
