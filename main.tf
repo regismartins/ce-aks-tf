@@ -8,7 +8,7 @@ resource "azurerm_kubernetes_cluster" "cluster" {
   location            = var.location
   resource_group_name = "${var.owner-name}-${var.prefix}-rg"
   dns_prefix          = "${var.owner-name}aks"
-  kubernetes_version  = "1.21.9"
+  kubernetes_version  = var.kubernetes_version
   depends_on = [
     azurerm_resource_group.resource_group
   ]
@@ -33,7 +33,8 @@ resource "azurerm_kubernetes_cluster" "cluster" {
 
   default_node_pool {
     name                  = "default"
-    node_count            = 3
+    node_count            = 2
+    max_pods              = 250
     enable_node_public_ip = true
     vm_size               = var.vm-size
   }
