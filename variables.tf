@@ -10,7 +10,7 @@ variable "prefix" {
 
 variable "location" {
   type    = string
-  default = "East US"
+  default = "Canada Central"
 }
 
 variable "vm-size" {

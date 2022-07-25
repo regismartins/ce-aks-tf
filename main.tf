@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "resource_group" {
   name     = "${var.owner-name}-${var.prefix}-rg"
-  location = "East US"
+  location = var.location
 }
 
 resource "azurerm_kubernetes_cluster" "cluster" {
