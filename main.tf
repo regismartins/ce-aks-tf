@@ -20,7 +20,7 @@ resource "azurerm_kubernetes_cluster" "cluster" {
 
   network_profile {
     network_plugin = "azure"
-    network_policy = "azure"
+    network_policy = "calico"
     network_mode   = "transparent"
   }
 
@@ -34,7 +34,7 @@ resource "azurerm_kubernetes_cluster" "cluster" {
   default_node_pool {
     name                  = "default"
     node_count            = 2
-    max_pods              = 250
+    max_pods              = 110
     enable_node_public_ip = true
     vm_size               = var.vm-size
   }
