@@ -20,7 +20,7 @@ resource "azurerm_kubernetes_cluster" "cluster" {
 
   network_profile {
     network_plugin = "azure"
-    network_policy = "calico"
+    network_policy = "azure"
     network_mode   = "transparent"
   }
 
@@ -45,6 +45,6 @@ resource "azurerm_kubernetes_cluster" "cluster" {
 
   tags = {
     owner       = var.owner-name
-    environment = "Calico Enterprise Trial"
+    environment = "Calico Enterprise demo environment"
   }
 }
